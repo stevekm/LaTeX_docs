@@ -44,7 +44,7 @@
 \setlength{\onecolwid}{0.22\paperwidth} % Width of one column
 \setlength{\twocolwid}{0.464\paperwidth} % Width of two columns
 \setlength{\threecolwid}{0.708\paperwidth} % Width of three columns
-\setlength{\topmargin}{1.0in} % Reduce the top margin size
+\setlength{\topmargin}{0.5in} % Reduce the top margin size
 %-----------------------------------------------------------
 
 \usepackage{graphicx}  % Required for including images
@@ -87,8 +87,8 @@
 % \addtobeamertemplate{block alerted end}{}{\vspace*{1ex}} % White space under highlighted (alert) blocks
 % \addtobeamertemplate{beamerboxesrounded end}{}{\vspace*{2ex}} % White space under blocks
 % ^ this doesn't work.. 
-\setlength{\belowcaptionskip}{0.5ex} % White space under figures
-\setlength\belowdisplayshortskip{0.5ex} % White space under equations
+\setlength{\belowcaptionskip}{0.01ex} % White space under figures % previously 0.5 for both of these
+% \setlength\belowdisplayshortskip{0.1ex} % White space under equations
 
 \begin{frame}[t] % The whole poster is enclosed in one beamer frame
 % FRAME % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,7 +125,7 @@ Develop a reproducible ChIP-Seq pipeline that can adapt to varying numbers of sa
 \item Generate sample sheet with pipeline-provided scripts
 \item (Optional) Modify parameters as needed, add custom tasks
 \item Run pipeline
-\item Compile report
+\item Compile automatic report
 \end{enumerate}
 
 \begin{figure}
@@ -179,7 +179,7 @@ Automatic Reporting   & \textbf{R, \LaTeXe~} \\ %  \fmtversion
 %----------------------------------------------------------------------------------------
 %	
 %----------------------------------------------------------------------------------------
-\begin{beamerboxesrounded}{Auto-report Sample Output}
+\begin{beamerboxesrounded}{} % Auto-report Sample Output
 
 % ChIP-Seq report snapshots go here, double wide!
 \begin{figure}
@@ -188,14 +188,21 @@ Automatic Reporting   & \textbf{R, \LaTeXe~} \\ %  \fmtversion
 \label{fig:alignStats}
 \end{figure}
 
-\vspace{10cm}
+% \vspace{10cm}
 
-\begin{figure}
-\includegraphics[width=1.0\linewidth, frame]{./Figures/fingerprint}
+\begin{figure} % fastqc
+% \includegraphics[width=1.0\linewidth, frame]{./Figures/fingerprint}
+\includegraphics[width=1.0\linewidth, frame]{./Figures/fastqc_report}
 \caption{Quality control metrics}
 \label{fig:fingerprint}
 \end{figure}
 
+
+\begin{figure}
+\includegraphics[width=1.0\linewidth, frame]{./Figures/peaks_UpSetR}
+\caption{Peak overlap UpSet plot}
+\label{fig:five_way_venn}
+\end{figure}
 
 
 \end{beamerboxesrounded}\hfill
@@ -211,19 +218,20 @@ Automatic Reporting   & \textbf{R, \LaTeXe~} \\ %  \fmtversion
 %	
 %----------------------------------------------------------------------------------------
 
-\begin{beamerboxesrounded}{\phantom{Auto-report Output}}
+\begin{beamerboxesrounded}{}% \phantom{Auto-report Output}
 
 
 % \begin{minipage}{\linewidth} % I tried using a minipage here but didn't like it
 \begin{figure}
-\includegraphics[width=1.0\linewidth, frame]{./Figures/PCA}
+\includegraphics[width=1.0\linewidth, frame]{./Figures/PCA_report}
 \caption{Principal component analysis}
 
 \label{fig:PCA}
 \end{figure}
 % \end{minipage}
 
-\vspace{10cm}
+% \vspace{10cm}
+
 % \vfill
 % \bigskip
 % \bigskip
@@ -236,6 +244,14 @@ Automatic Reporting   & \textbf{R, \LaTeXe~} \\ %  \fmtversion
 \caption{Differential binding heatmaps}
 \label{fig:heatmap}
 \end{figure}
+
+\begin{figure}
+% \includegraphics[width=0.7\linewidth, frame]{./Figures/fiveway-venn}
+\includegraphics[width=1.0\linewidth, frame]{./Figures/fiveway-venn_report}
+\caption{Peak overlap venn diagram}
+\label{fig:five_way_venn}
+\end{figure}
+
 % \end{minipage}
 
 
@@ -251,23 +267,23 @@ Automatic Reporting   & \textbf{R, \LaTeXe~} \\ %  \fmtversion
 \begin{columns}[t,totalwidth=\twocolwid] % Split up the two columns wide column again
 % 2.? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\begin{column}{\onecolwid} % The first column within column 2 (column 2.1)
-% 2.?? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% \begin{column}{\onecolwid} % The first column within column 2 (column 2.1)
+% % 2.?? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% 
+% % MYSTERY COLUMN 1 ????
+% 
+% % 2.?? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% \end{column} % End of column 2.1
 
-% MYSTERY COLUMN 1 ????
-
-% 2.?? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\end{column} % End of column 2.1
-
-\begin{column}{\onecolwid} % The second column within column 2 (column 2.2)
-% 2.??? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-% MYSTERY COLUMN 2 ????
-
-
-% 2.??? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\end{column} % End of column 2.2
+% \begin{column}{\onecolwid} % The second column within column 2 (column 2.2)
+% % 2.??? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% 
+% 
+% % MYSTERY COLUMN 2 ????
+% 
+% 
+% % 2.??? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% \end{column} % End of column 2.2
 
 % 2.? % ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ % ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \end{columns} % End of the split of column 2
@@ -295,7 +311,7 @@ Automatic Reporting   & \textbf{R, \LaTeXe~} \\ %  \fmtversion
 \begin{beamerboxesrounded}{Future Developments}
 \begin{itemize}
 \item Automated motif analysis
-\item Peak overlapping and filtering
+% \item Peak overlapping and filtering
 \end{itemize}
 \end{beamerboxesrounded}\hfill
 
