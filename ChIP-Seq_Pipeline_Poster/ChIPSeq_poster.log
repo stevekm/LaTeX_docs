@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 MAY 2016 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 MAY 2016 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,140 +1360,138 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <12.50194> not available
 
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/ChIPSeq_flowchart.
-pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-
-<./Figures/ChIPSeq_flowchart.pdf, id=15, 963.6pt x 542.025pt>
+pdfTeX warning: pdflatex (file ./Figures/ChIPSeq_flowchart.pdf): PDF inclusion:
+ found PDF version <1.6>, but at most version <1.5> allowed
+<./Figures/ChIPSeq_flowchart.pdf, id=16, 963.6pt x 542.025pt>
 File: ./Figures/ChIPSeq_flowchart.pdf Graphic file (type pdf)
 
 <use ./Figures/ChIPSeq_flowchart.pdf>
-Package pdftex.def Info: ./Figures/ChIPSeq_flowchart.pdf used on input line 347
+Package pdftex.def Info: ./Figures/ChIPSeq_flowchart.pdf used on input line 348
 .
 (pdftex.def)             Requested size: 763.17543pt x 429.29504pt.
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/alignStats.pdf): P
-DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./Figures/alignStats.pdf, id=16, 398.3382pt x 298.75415pt>
+pdfTeX warning: pdflatex (file ./Figures/alignStats.pdf): PDF inclusion: found 
+PDF version <1.6>, but at most version <1.5> allowed
+<./Figures/alignStats.pdf, id=17, 398.3382pt x 298.75415pt>
 File: ./Figures/alignStats.pdf Graphic file (type pdf)
 
 <use ./Figures/alignStats.pdf>
-Package pdftex.def Info: ./Figures/alignStats.pdf used on input line 347.
+Package pdftex.def Info: ./Figures/alignStats.pdf used on input line 348.
 (pdftex.def)             Requested size: 763.17543pt x 572.41621pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 347--347
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 348--348
  [] 
  []
 
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/fastqc_report.pdf)
-: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./Figures/fastqc_report.pdf, id=17, 398.3382pt x 298.75415pt>
+pdfTeX warning: pdflatex (file ./Figures/fastqc_report.pdf): PDF inclusion: fou
+nd PDF version <1.6>, but at most version <1.5> allowed
+<./Figures/fastqc_report.pdf, id=18, 398.3382pt x 298.75415pt>
 File: ./Figures/fastqc_report.pdf Graphic file (type pdf)
 
 <use ./Figures/fastqc_report.pdf>
-Package pdftex.def Info: ./Figures/fastqc_report.pdf used on input line 347.
+Package pdftex.def Info: ./Figures/fastqc_report.pdf used on input line 348.
 (pdftex.def)             Requested size: 763.17543pt x 572.41621pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 347--347
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 348--348
  [] 
  []
 
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/peaks_UpSetR.pdf):
- PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./Figures/peaks_UpSetR.pdf, id=18, 398.3382pt x 298.75415pt>
+pdfTeX warning: pdflatex (file ./Figures/peaks_UpSetR.pdf): PDF inclusion: foun
+d PDF version <1.6>, but at most version <1.5> allowed
+<./Figures/peaks_UpSetR.pdf, id=19, 398.3382pt x 298.75415pt>
 File: ./Figures/peaks_UpSetR.pdf Graphic file (type pdf)
 
 <use ./Figures/peaks_UpSetR.pdf>
-Package pdftex.def Info: ./Figures/peaks_UpSetR.pdf used on input line 347.
+Package pdftex.def Info: ./Figures/peaks_UpSetR.pdf used on input line 348.
 (pdftex.def)             Requested size: 763.17543pt x 572.41621pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 347--347
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 348--348
  [] 
  []
 
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/PCA_report.pdf): P
-DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./Figures/PCA_report.pdf, id=19, 398.3382pt x 298.75415pt>
+pdfTeX warning: pdflatex (file ./Figures/PCA_report.pdf): PDF inclusion: found 
+PDF version <1.6>, but at most version <1.5> allowed
+<./Figures/PCA_report.pdf, id=20, 398.3382pt x 298.75415pt>
 File: ./Figures/PCA_report.pdf Graphic file (type pdf)
 
 <use ./Figures/PCA_report.pdf>
-Package pdftex.def Info: ./Figures/PCA_report.pdf used on input line 347.
+Package pdftex.def Info: ./Figures/PCA_report.pdf used on input line 348.
 (pdftex.def)             Requested size: 763.17543pt x 572.41621pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 347--347
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 348--348
  [] 
  []
 
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/heatmap.pdf): PDF 
-inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./Figures/heatmap.pdf, id=20, 398.3382pt x 298.75415pt>
+pdfTeX warning: pdflatex (file ./Figures/heatmap.pdf): PDF inclusion: found PDF
+ version <1.6>, but at most version <1.5> allowed
+<./Figures/heatmap.pdf, id=21, 398.3382pt x 298.75415pt>
 File: ./Figures/heatmap.pdf Graphic file (type pdf)
 
 <use ./Figures/heatmap.pdf>
-Package pdftex.def Info: ./Figures/heatmap.pdf used on input line 347.
+Package pdftex.def Info: ./Figures/heatmap.pdf used on input line 348.
 (pdftex.def)             Requested size: 763.17543pt x 572.41621pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 347--347
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 348--348
  [] 
  []
 
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/fiveway-venn_repor
-t.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
-ed
-<./Figures/fiveway-venn_report.pdf, id=21, 398.3382pt x 298.75415pt>
+pdfTeX warning: pdflatex (file ./Figures/fiveway-venn_report.pdf): PDF inclusio
+n: found PDF version <1.6>, but at most version <1.5> allowed
+<./Figures/fiveway-venn_report.pdf, id=22, 398.3382pt x 298.75415pt>
 File: ./Figures/fiveway-venn_report.pdf Graphic file (type pdf)
 
 <use ./Figures/fiveway-venn_report.pdf>
 Package pdftex.def Info: ./Figures/fiveway-venn_report.pdf used on input line 3
-47.
+48.
 (pdftex.def)             Requested size: 763.17543pt x 572.41621pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 347--347
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 348--348
  [] 
  []
 
-<./Figures/github_repo.png, id=22, 1190.4475pt x 1301.86375pt>
+<./Figures/github_repo.png, id=23, 1190.4475pt x 1301.86375pt>
 File: ./Figures/github_repo.png Graphic file (type png)
 
 <use ./Figures/github_repo.png>
-Package pdftex.def Info: ./Figures/github_repo.png used on input line 347.
+Package pdftex.def Info: ./Figures/github_repo.png used on input line 348.
 (pdftex.def)             Requested size: 763.17543pt x 834.60037pt.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 347
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 348
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1622) in paragraph at lines 347--347
+Underfull \hbox (badness 1622) in paragraph at lines 348--348
 \T1/lmss/m/n/37.03 RSG-15-189-01-RMC from the Amer-i-can Can-cer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
 
  []
 
 
-Overfull \hbox (4.99402pt too wide) detected at line 347
+Overfull \hbox (4.99402pt too wide) detected at line 348
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
 ][] [][][][][][][][][] [][][][][][][] 
  []
 
-<./Figures/NYULMC_white.jpg, id=29, 401.5pt x 169.63374pt>
+<./Figures/NYULMC_white.jpg, id=30, 401.5pt x 169.63374pt>
 File: ./Figures/NYULMC_white.jpg Graphic file (type jpg)
 
 <use ./Figures/NYULMC_white.jpg>
-Package pdftex.def Info: ./Figures/NYULMC_white.jpg used on input line 347.
+Package pdftex.def Info: ./Figures/NYULMC_white.jpg used on input line 348.
 (pdftex.def)             Requested size: 336.73082pt x 142.26378pt.
 
 Overfull \hbox (88.20334pt too wide) has occurred while \output is active
@@ -1507,7 +1505,7 @@ venn}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.347 \end{frame}
+l.348 \end{frame}
                   % End of the enclosing frame <./Figures/NYULMC_white.jpg> <./
 Figures/ChIPSeq_flowchart.pdf> <./Figures/alignStats.pdf> <./Figures/fastqc_rep
 ort.pdf> <./Figures/peaks_UpSetR.pdf> <./Figures/PCA_report.pdf> <./Figures/hea
@@ -1521,11 +1519,11 @@ tmap.pdf> <./Figures/fiveway-venn_report.pdf> <./Figures/github_repo.png>]
 \tf@snm=\write8
 \openout8 = `ChIPSeq_poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
 
 (./ChIPSeq_poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
 
 
  *File List*
@@ -1711,7 +1709,7 @@ translator-theorem-dictionary-English.dict
 ./Figures/NYULMC_white.jpg
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 Package rerunfilecheck Info: File `ChIPSeq_poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1721,12 +1719,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
  22680 strings out of 493089
  444725 string characters out of 6134842
- 570146 words of memory out of 5000000
+ 572166 words of memory out of 5000000
  25568 multiletter control sequences out of 15000+600000
  97884 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1739,10 +1737,10 @@ fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/public/lm/lmmib10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm
 /lmssbx10.pfb>
-Output written on ChIPSeq_poster.pdf (1 page, 817390 bytes).
+Output written on ChIPSeq_poster.pdf (1 page, 817633 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
+ 219 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
  11 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
