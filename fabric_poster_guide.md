@@ -27,3 +27,4 @@ This can be done using the website http://www.spoonflower.com
   - 'Centered' design
   - 'Change DPI' -> set your exact DPI used
   - Performance Knit fabric, 1 yard
+- Expect shipping time estimate of upwards of 10 - 15 days, so plan ahead!
