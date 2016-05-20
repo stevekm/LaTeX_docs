@@ -1,8 +1,9 @@
 #!/usr/bin/env Rscript
 
 ## USAGE: embed_fonts_PDF.R /path/to/file.pdf
-## this script will embed fonts into a PDF document
-## this requires the fonts to be installed on your computer, and requires ghostscript to be installed and in your PATH
+## this script will embed fonts into a PDF document; 
+## this can be an issue if a program doesn't have the fonts needed to display your PDF!!
+## this script requires the fonts to be installed on your computer, and requires ghostscript to be installed and in your PATH
 ## this is a wrapper for a bash command, but its handy since it can be inserted into an R script
 
 # ~~~~~ GET SCRIPT ARGS ~~~~~~~ #
