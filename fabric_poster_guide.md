@@ -24,6 +24,6 @@ This can be done using the website http://www.spoonflower.com
 - on SpoonFlower, Create a new Fabric 
 - upload the PNG
 - Select the following settings: 
-- - 'Centered' design
-- - 'Change DPI' -> set your exact DPI used
-- - Performance Knit fabric, 1 yard
+  - 'Centered' design
+  - 'Change DPI' -> set your exact DPI used
+  - Performance Knit fabric, 1 yard
