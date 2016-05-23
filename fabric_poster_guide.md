@@ -23,7 +23,7 @@ The poster needs to be exported / converted to a PNG image file at 150-300 DPI
 Here are some basic instructions on various ways to get your poster into the required format for Spoonflower fabric printing. Keep in mind that the steps needed for your poster will depend on starting format and which programs you can get to work on your system.
 
 - Export your poster as a PDF
-  - If you are starting from a PowerPoint document, you can do this from within PowerPoint. Sometimes PowerPoint's PDF exporter breaks due to slide elements such as Excel tables; in this case, you can copy the entire slide and paste it as an image on a new slide, and then export that image as PDF. Make sure all intermediary image steps use PNG format.
+  - If you are starting from a PowerPoint document, you can do this from within PowerPoint (Export / Save As a PDF document). Sometimes PowerPoint's PDF exporter breaks due to slide elements such as Excel tables; in this case, you can copy the entire slide and paste it as an image on a new slide, and then export that image as PDF. Make sure all intermediary image steps use PNG format.
   - If you are starting from a TeX/LaTeX document, just use pdflatex or equivalent to compile to PDF
 
 - Convert the PDF to PNG at a DPI setting of 150-300; tweak this until you get the highest possible DPI without exceeding a 40MB final PNG size. Some ways to accomplish this:
