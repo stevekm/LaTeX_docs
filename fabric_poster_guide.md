@@ -6,6 +6,12 @@ If you are creating a conference poster, you can have your poster printed on fab
 
 - Its easier to handle and transport
 
+- No tears
+
+- Its washable
+
+- You can wear it
+
 This can be done using the website http://www.spoonflower.com
 
 ### SYNOPSIS:
