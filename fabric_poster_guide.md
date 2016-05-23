@@ -8,7 +8,13 @@ If you are creating a conference poster, you can have your poster printed on fab
 
 This can be done using the website http://www.spoonflower.com
 
+### SYNOPSIS:
+
+The poster needs to be exported / converted to a PNG image file at 150-300 DPI
+
 #### Instructions: 
+
+Here are some basic instructions on various ways to get your poster into the required format for Spoonflower fabric printing. Keep in mind that the steps needed for your poster will depend on starting format and which programs you can get to work on your system.
 
 - Export your poster as a PDF
   - If you are starting from a PowerPoint document, you can do this from within PowerPoint. Sometimes PowerPoint's PDF exporter breaks due to slide elements such as Excel tables; in this case, you can copy the entire slide and paste it as an image on a new slide, and then export that image as PDF. Make sure all intermediary image steps use PNG format.
