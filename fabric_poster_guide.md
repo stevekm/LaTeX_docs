@@ -40,4 +40,4 @@ Here are some basic instructions on various ways to get your poster into the req
   - 'Centered' design
   - 'Change DPI' -> set your exact DPI used
   - Performance Knit fabric, 1 yard
-- Expect shipping time estimate of upwards of 10 - 15 days, so plan ahead!
+- Shipping time estimate are listed as 10 - 15 days, though mine have always come in ~4 business days. Plan ahead!
