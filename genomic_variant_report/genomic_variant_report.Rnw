@@ -1,0 +1,149 @@
+\documentclass[12pt,a4paper]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% knitr stuff for R code chunks
+% always need this code chunk, never mess with it!
+<<document_setup, include=FALSE>>=
+opts_chunk$set(fig.path='figure',fig.align='center',fig.show='hold',size='footnotesize')
+library(knitr)
+library(xtable)
+library(Hmisc)
+@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<ClinicalInformation,echo=FALSE,include=TRUE,results='asis'>>=
+# this code chunk can load information for the document
+# getwd() # 
+
+# location of the variants file
+# Annotation_file<-"/path/to/annotations/AAmatch_unique_annotations.csv"
+# Annotations_556_df<-read.csv(Annotation_file)
+
+# here is a copy of the annotations, sample for this report
+# dput(Annotations_556_df[,1:7])
+Annotations_556_df<-structure(list(Chr = structure(c(1L, 1L, 2L, 2L, 3L, 3L, 3L, 
+3L, 4L, 4L, 4L, 4L, 5L, 5L, 6L, 6L, 7L, 7L, 8L, 8L, 9L, 10L, 
+10L, 11L, 11L, 12L, 12L, 13L, 14L, 14L, 15L, 15L, 15L, 15L, 16L, 
+17L, 17L, 17L, 17L, 18L, 18L, 19L), .Label = c("chr1", "chr10", 
+"chr11", "chr12", "chr13", "chr15", "chr16", "chr17", "chr18", 
+"chr2", "chr20", "chr22", "chr3", "chr4", "chr5", "chr6", "chr7", 
+"chr9", "chrX"), class = "factor"), Start = c(65332620L, 27105617L, 
+43615611L, 89717672L, 22646800L, 108158388L, 118373862L, 108206576L, 
+56492623L, 25398281L, 49420730L, 25398284L, 110436759L, 28877330L, 
+91290633L, 99250911L, 2131755L, 67644866L, 7577088L, 7577022L, 
+60985857L, 209113112L, 209113113L, 52198138L, 57484421L, 21288246L, 
+38373927L, 134884908L, 153249384L, 66213812L, 38949929L, 56177843L, 
+112178327L, 180057783L, 35428345L, 55249007L, 140453136L, 106509078L, 
+151873488L, 98278948L, 93606193L, 39937105L), End = c(65332620L, 
+27105617L, 43615611L, 89717672L, 22646800L, 108158388L, 118373862L, 
+108206576L, 56492623L, 25398281L, 49420730L, 25398284L, 110436759L, 
+28877330L, 91290633L, 99250911L, 2131755L, 67644866L, 7577088L, 
+7577022L, 60985857L, 209113112L, 209113113L, 52198138L, 57484421L, 
+21288246L, 38373927L, 134884908L, 153249384L, 66213812L, 38949929L, 
+56177843L, 112178327L, 180057783L, 35428345L, 55249007L, 140453136L, 
+106509078L, 151873488L, 98278948L, 93606193L, 39937105L), Ref = structure(c(2L, 
+2L, 3L, 2L, 3L, 1L, 3L, 3L, 3L, 2L, 3L, 2L, 3L, 2L, 4L, 3L, 2L, 
+1L, 4L, 3L, 2L, 2L, 3L, 4L, 3L, 3L, 2L, 3L, 2L, 3L, 4L, 2L, 2L, 
+2L, 2L, 3L, 1L, 3L, 3L, 4L, 3L, 3L), .Label = c("A", "C", "G", 
+"T"), class = "factor"), Alt = structure(c(4L, 4L, 1L, 4L, 1L, 
+3L, 1L, 1L, 1L, 4L, 1L, 1L, 4L, 4L, 2L, 1L, 4L, 3L, 3L, 1L, 4L, 
+4L, 1L, 2L, 1L, 1L, 4L, 1L, 4L, 4L, 2L, 3L, 4L, 4L, 4L, 1L, 4L, 
+4L, 4L, 2L, 1L, 2L), .Label = c("A", "C", "G", "T"), class = "factor"), 
+    Gene.refGene = structure(c(23L, 2L, 32L, 31L, 15L, 3L, 24L, 
+    3L, 13L, 27L, 26L, 27L, 22L, 17L, 6L, 21L, 37L, 9L, 36L, 
+    36L, 4L, 20L, 20L, 38L, 19L, 8L, 34L, 12L, 16L, 11L, 33L, 
+    28L, 1L, 18L, 14L, 10L, 7L, 29L, 25L, 30L, 35L, 5L), .Label = c("APC", 
+    "ARID1A", "ATM", "BCL2", "BCOR", "BLM", "BRAF", "CRKL", "CTCF", 
+    "EGFR", "EPHA5", "EPHB1", "ERBB3", "FANCE", "FANCF", "FBXW7", 
+    "FLT1", "FLT4", "GNAS", "IDH1", "IGF1R", "IRS2", "JAK1", 
+    "KMT2A", "KMT2C", "KMT2D", "KRAS", "MAP3K1", "PIK3CG", "PTCH1", 
+    "PTEN", "RET", "RICTOR", "SOX10", "SYK", "TP53", "TSC2", 
+    "ZNF217"), class = "factor"), AAmatch = structure(c(10L, 
+    34L, 29L, 23L, 2L, 12L, 4L, 24L, 7L, 9L, 27L, 8L, 17L, 37L, 
+    39L, 31L, 1L, 18L, 35L, 25L, 38L, 20L, 19L, 14L, 28L, 21L, 
+    22L, 40L, 26L, 32L, 13L, 33L, 15L, 6L, 16L, 42L, 41L, 3L, 
+    36L, 5L, 11L, 30L), .Label = c("A1257V", "A186V", "D358Y", 
+    "E2416K", "E52G", "E58K", "E925K", "G12V", "G13D", "G307S", 
+    "G5S", "H1352R", "M1341V", "M410V", "P2346S", "P445S", "P548T", 
+    "Q44R", "R132C", "R132H", "R164Q", "R215Q", "R233", "R2719H", 
+    "R306", "R465H", "R5007W", "R844H", "R897Q", "S26R", "S72N", 
+    "S873Y", "S939C", "T1743M", "T284P", "T3017K", "V1331I", 
+    "V15M", "V4A", "V562I", "V600E", "V769M"), class = "factor")), .Names = c("Chr", 
+"Start", "End", "Ref", "Alt", "Gene.refGene", "AAmatch"), class = "data.frame", row.names = c(NA, 
+-42L))
+
+# location of the histology images
+Histology_dirpath<-"figures/histology"
+
+# items for the report
+Number_of_Genes<-556L
+Number_of_variants<-nrow(Annotations_556_df)
+Patient_Name<-latexTranslate("PATIENT NAME GOES HERE")
+Patient_ID<-latexTranslate("999999")
+Misc_ID<-latexTranslate("999999")
+Diagnosis<-latexTranslate("Squamous epithelial kiwi carcinoma")
+
+@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{a4wide}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel} % Language packages
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage[absolute]{textpos}
+\usepackage{tabularx} 
+\usepackage{tabulary} 
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{longtable} % for long tables
+\pagestyle{fancy}
+\headsep=50pt
+\listfiles % list the package versions in the log file
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% header information table, using fancyhdr
+\lhead{}
+\fancyhead[C]{{\footnotesize
+\textblockorigin{-18pt}{-2pt}
+\begin{textblock*}{10cm}(2cm,1cm)
+\includegraphics[height=1.5cm,keepaspectratio]{figures/logo/NYULMC_white.jpg}
+\end{textblock*}
+\begin{tabularx}{1.0\textwidth}{|l|X|l|l|}
+\hline 
+\textbf{\Sexpr{Number_of_Genes} PANEL} & \textbf{CLINICAL REPORT} & \textbf{Date:}  &  \today \\ 
+% \hline
+\multicolumn{2}{|l|}{\Sexpr{Patient_Name}} & \textbf{PATIENT ID} &  \Sexpr{Patient_ID} \\ 
+% \hline
+\multicolumn{2}{|l|}{Diagnosis: {\scriptsize \Sexpr{Diagnosis}}} & \textbf{Misc. ID:} & \Sexpr{Misc_ID}  \\ 
+% \hline
+\end{tabularx}}}
+\rhead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\section*{Case Images}
+<<CaseImages,echo=FALSE,include=TRUE,results='asis'>>=
+for(i in seq_along(1:length(dir(Histology_dirpath)))){
+  cat("\\includegraphics[height=4cm,keepaspectratio]{", paste0(Histology_dirpath,"/",dir(Histology_dirpath)[i]), "}\n", sep="")
+}
+@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Results}
+<<AnnotationTable,echo=FALSE,include=TRUE,results='asis'>>=
+cat(latexTranslate("\\textbf{GENOMIC ALTERATIONS:} Summary \\\\\n \\\\\n"))
+cat(latexTranslate("Somatic alterations in clinically relevant genes. \\\\\n \\\\\n"))
+cat(latexTranslate(c("A set of ",Number_of_Genes, "genes were investigated. ",Number_of_variants, " variants were found among these.\\\\\n \\\\\n")))
+
+cat(latexTranslate("\\textbf{Clinically Relevant Genomic Alterations} \\\\\n \\\\\n"))
+# kable(Annotations_556_df)
+print(xtable(Annotations_556_df[,c("Gene.refGene","AAmatch")]),size="\\footnotesize",tabular.environment = 'longtable',table.placement = "H",floating = FALSE,include.rownames=FALSE)
+# print(xtable(Annotations_556_df),size="\\footnotesize",scalebox = 0.7)
+@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\section{System and Session Information}\label{session}
+\LaTeX{} version: \LaTeXe~ \fmtversion
+<<Session>>=
+system('uname -srv',intern=T)
+sessionInfo()
+@
+\end{document}
