@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 JUN 2016 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 JUN 2016 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1175,14 +1175,14 @@ File: ./figure/FAO_Isochrysis_Tetraselmis.jpg Graphic file (type jpg)
 
 <use ./figure/FAO_Isochrysis_Tetraselmis.jpg>
 Package pdftex.def Info: ./figure/FAO_Isochrysis_Tetraselmis.jpg used on input 
-line 27.
+line 28.
 (pdftex.def)             Requested size: 152.8713pt x 77.20369pt.
 
 <./figure/Thal_psuedonana.jpg, id=251, 200.75pt x 246.9225pt>
 File: ./figure/Thal_psuedonana.jpg Graphic file (type jpg)
 
 <use ./figure/Thal_psuedonana.jpg>
-Package pdftex.def Info: ./figure/Thal_psuedonana.jpg used on input line 32.
+Package pdftex.def Info: ./figure/Thal_psuedonana.jpg used on input line 33.
 (pdftex.def)             Requested size: 61.14758pt x 75.2114pt.
 )
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1202,21 +1202,21 @@ File: ./figure/UTEX_Austin_TX_capitol.jpg Graphic file (type jpg)
 
 <use ./figure/UTEX_Austin_TX_capitol.jpg>
 Package pdftex.def Info: ./figure/UTEX_Austin_TX_capitol.jpg used on input line
- 274.
+ 275.
 (pdftex.def)             Requested size: 91.72371pt x 66.6325pt.
 
 <./figure/Texas_cycad.jpg, id=293, 3276.24pt x 2457.18pt>
 File: ./figure/Texas_cycad.jpg Graphic file (type jpg)
 
 <use ./figure/Texas_cycad.jpg>
-Package pdftex.def Info: ./figure/Texas_cycad.jpg used on input line 274.
+Package pdftex.def Info: ./figure/Texas_cycad.jpg used on input line 275.
 (pdftex.def)             Requested size: 91.72371pt x 68.76308pt.
 
 <./figure/HornPointLab.jpg, id=294, 577.15625pt x 346.29375pt>
 File: ./figure/HornPointLab.jpg Graphic file (type jpg)
 
 <use ./figure/HornPointLab.jpg>
-Package pdftex.def Info: ./figure/HornPointLab.jpg used on input line 274.
+Package pdftex.def Info: ./figure/HornPointLab.jpg used on input line 275.
 (pdftex.def)             Requested size: 152.8713pt x 91.71985pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1235,11 +1235,11 @@ nPointLab.jpg>] <./figure/PPFM_Cultures.JPG, id=332, 963.6pt x 722.7pt>
 File: ./figure/PPFM_Cultures.JPG Graphic file (type jpg)
 
 <use ./figure/PPFM_Cultures.JPG>
-Package pdftex.def Info: ./figure/PPFM_Cultures.JPG used on input line 297.
+Package pdftex.def Info: ./figure/PPFM_Cultures.JPG used on input line 298.
 (pdftex.def)             Requested size: 152.8713pt x 114.65291pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 297.
+Package hyperref Warning: Ignoring empty anchor on input line 298.
 
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1259,7 +1259,7 @@ File: ./figure/ppfm_newleafsym_com.png Graphic file (type png)
 
 <use ./figure/ppfm_newleafsym_com.png>
 Package pdftex.def Info: ./figure/ppfm_newleafsym_com.png used on input line 31
-3.
+4.
 (pdftex.def)             Requested size: 152.8713pt x 86.0867pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1279,11 +1279,11 @@ File: ./figure/Chlamydomonas_summary.png Graphic file (type png)
 
 <use ./figure/Chlamydomonas_summary.png>
 Package pdftex.def Info: ./figure/Chlamydomonas_summary.png used on input line 
-334.
+335.
 (pdftex.def)             Requested size: 183.44743pt x 139.73611pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 334.
+Package hyperref Warning: Ignoring empty anchor on input line 335.
 
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1314,7 +1314,7 @@ File: ./figure/Algae_PPFM_isolation.jpg Graphic file (type jpg)
 
 <use ./figure/Algae_PPFM_isolation.jpg>
 Package pdftex.def Info: ./figure/Algae_PPFM_isolation.jpg used on input line 3
-68.
+69.
 (pdftex.def)             Requested size: 183.44743pt x 137.56364pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1334,14 +1334,14 @@ File: ./figure/ExpM_MiniThal_StdCurve1_unlabeled2.pdf Graphic file (type pdf)
 
 <use ./figure/ExpM_MiniThal_StdCurve1_unlabeled2.pdf>
 Package pdftex.def Info: ./figure/ExpM_MiniThal_StdCurve1_unlabeled2.pdf used o
-n input line 396.
+n input line 397.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 <./figure/AlgaeReadingSpec.jpg, id=527, 3276.24pt x 2457.18pt>
 File: ./figure/AlgaeReadingSpec.jpg Graphic file (type jpg)
 
 <use ./figure/AlgaeReadingSpec.jpg>
-Package pdftex.def Info: ./figure/AlgaeReadingSpec.jpg used on input line 396.
+Package pdftex.def Info: ./figure/AlgaeReadingSpec.jpg used on input line 397.
 (pdftex.def)             Requested size: 152.8713pt x 114.61761pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1363,7 +1363,7 @@ File: ./figure/Thalassiosira_Scatter_with_SD_errors.pdf Graphic file (type pdf)
 
  <use ./figure/Thalassiosira_Scatter_with_SD_errors.pdf>
 Package pdftex.def Info: ./figure/Thalassiosira_Scatter_with_SD_errors.pdf used
- on input line 412.
+ on input line 413.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 <./figure/Thalassiosira_beanopplot.pdf, id=577, 361.35pt x 361.35pt>
@@ -1371,7 +1371,7 @@ File: ./figure/Thalassiosira_beanopplot.pdf Graphic file (type pdf)
 
 <use ./figure/Thalassiosira_beanopplot.pdf>
 Package pdftex.def Info: ./figure/Thalassiosira_beanopplot.pdf used on input li
-ne 412.
+ne 413.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1392,7 +1392,7 @@ File: ./figure/Tetraselmis_Scatter_with_SD_errors.pdf Graphic file (type pdf)
 
 <use ./figure/Tetraselmis_Scatter_with_SD_errors.pdf>
 Package pdftex.def Info: ./figure/Tetraselmis_Scatter_with_SD_errors.pdf used o
-n input line 430.
+n input line 431.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 <./figure/Tetraselmis_beanplot.pdf, id=633, 361.35pt x 361.35pt>
@@ -1400,7 +1400,7 @@ File: ./figure/Tetraselmis_beanplot.pdf Graphic file (type pdf)
 
 <use ./figure/Tetraselmis_beanplot.pdf>
 Package pdftex.def Info: ./figure/Tetraselmis_beanplot.pdf used on input line 4
-30.
+31.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1420,7 +1420,7 @@ ot.pdf>]
 File: ./figure/MixedCulture_Scatter_with_SD_errors.pdf Graphic file (type pdf)
 <use ./figure/MixedCulture_Scatter_with_SD_errors.pdf>
 Package pdftex.def Info: ./figure/MixedCulture_Scatter_with_SD_errors.pdf used 
-on input line 451.
+on input line 452.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 <./figure/MixedCulture_beanopplot.pdf, id=686, 361.35pt x 361.35pt>
@@ -1428,7 +1428,7 @@ File: ./figure/MixedCulture_beanopplot.pdf Graphic file (type pdf)
 
 <use ./figure/MixedCulture_beanopplot.pdf>
 Package pdftex.def Info: ./figure/MixedCulture_beanopplot.pdf used on input lin
-e 451.
+e 452.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1449,7 +1449,7 @@ File: ./figure/ExpC_GrowthCurve1_unlabeled.pdf Graphic file (type pdf)
 
 <use ./figure/ExpC_GrowthCurve1_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpC_GrowthCurve1_unlabeled.pdf used on input
- line 473.
+ line 474.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 <./figure/ExpD_GrowthCurve1_unlabeled.pdf, id=740, 361.35pt x 361.35pt>
@@ -1457,7 +1457,7 @@ File: ./figure/ExpD_GrowthCurve1_unlabeled.pdf Graphic file (type pdf)
 
 <use ./figure/ExpD_GrowthCurve1_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpD_GrowthCurve1_unlabeled.pdf used on input
- line 473.
+ line 474.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1479,7 +1479,7 @@ File: ./figure/ExpM_MiniThal_beanplot_cells_7_unlabeled.pdf Graphic file (type
 pdf)
  <use ./figure/ExpM_MiniThal_beanplot_cells_7_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpM_MiniThal_beanplot_cells_7_unlabeled.pdf 
-used on input line 498.
+used on input line 499.
 (pdftex.def)             Requested size: 107.00945pt x 107.01085pt.
 
 <./figure/ExpM_MiniThal_beanplot_cells_9_unlabeled.pdf, id=792, 361.35pt x 361.
@@ -1488,7 +1488,7 @@ File: ./figure/ExpM_MiniThal_beanplot_cells_9_unlabeled.pdf Graphic file (type
 pdf)
  <use ./figure/ExpM_MiniThal_beanplot_cells_9_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpM_MiniThal_beanplot_cells_9_unlabeled.pdf 
-used on input line 498.
+used on input line 499.
 (pdftex.def)             Requested size: 107.00945pt x 107.01085pt.
 
 <./figure/ExpM_GrowthCurve2_unlabeled.pdf, id=793, 361.35pt x 361.35pt>
@@ -1496,10 +1496,10 @@ File: ./figure/ExpM_GrowthCurve2_unlabeled.pdf Graphic file (type pdf)
 
 <use ./figure/ExpM_GrowthCurve2_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpM_GrowthCurve2_unlabeled.pdf used on input
- line 498.
+ line 499.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
-Overfull \vbox (4.0001pt too high) detected at line 498
+Overfull \vbox (4.0001pt too high) detected at line 499
  []
 
 
@@ -1521,7 +1521,7 @@ File: ./figure/ExpO_GrowthCurve1_unlabeled.pdf Graphic file (type pdf)
 
 <use ./figure/ExpO_GrowthCurve1_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpO_GrowthCurve1_unlabeled.pdf used on input
- line 517.
+ line 518.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 <./figure/ExpO_beanplot7_unlabeled.pdf, id=851, 361.35pt x 361.35pt>
@@ -1529,7 +1529,7 @@ File: ./figure/ExpO_beanplot7_unlabeled.pdf Graphic file (type pdf)
 
 <use ./figure/ExpO_beanplot7_unlabeled.pdf>
 Package pdftex.def Info: ./figure/ExpO_beanplot7_unlabeled.pdf used on input li
-ne 517.
+ne 518.
 (pdftex.def)             Requested size: 152.8713pt x 152.86871pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1545,7 +1545,7 @@ Overfull \hbox (1.12701pt too wide) has occurred while \output is active
 
  <./figure/ExpO_GrowthCurve1_unlabeled.pdf> <./figure/ExpO_beanplot7_unlabeled.
 pdf>]
-Overfull \hbox (12.54866pt too wide) in paragraph at lines 569--569
+Overfull \hbox (12.54866pt too wide) in paragraph at lines 570--570
  [] 
  []
 
@@ -1565,14 +1565,14 @@ Overfull \hbox (1.12701pt too wide) has occurred while \output is active
 File: ./figure/large_vol_algae.jpg Graphic file (type jpg)
 
 <use ./figure/large_vol_algae.jpg>
-Package pdftex.def Info: ./figure/large_vol_algae.jpg used on input line 592.
+Package pdftex.def Info: ./figure/large_vol_algae.jpg used on input line 593.
 (pdftex.def)             Requested size: 152.8713pt x 114.64188pt.
 
 <./figure/dried_algae.jpg, id=943, 4143.48pt x 3107.61pt>
 File: ./figure/dried_algae.jpg Graphic file (type jpg)
 
 <use ./figure/dried_algae.jpg>
-Package pdftex.def Info: ./figure/dried_algae.jpg used on input line 592.
+Package pdftex.def Info: ./figure/dried_algae.jpg used on input line 593.
 (pdftex.def)             Requested size: 152.8713pt x 114.60991pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1627,7 +1627,7 @@ File: ./figure/UTEXAlgalBioreactors.jpg Graphic file (type jpg)
 
 <use ./figure/UTEXAlgalBioreactors.jpg>
 Package pdftex.def Info: ./figure/UTEXAlgalBioreactors.jpg used on input line 7
-02.
+03.
 (pdftex.def)             Requested size: 214.0189pt x 160.50967pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1646,7 +1646,7 @@ Overfull \hbox (1.12701pt too wide) has occurred while \output is active
 File: ./figure/bigSU.PNG Graphic file (type png)
 
 <use ./figure/bigSU.PNG>
-Package pdftex.def Info: ./figure/bigSU.PNG used on input line 727.
+Package pdftex.def Info: ./figure/bigSU.PNG used on input line 728.
 (pdftex.def)             Requested size: 152.8713pt x 60.52957pt.
 
 <./figure/tedco_logo_tedco_md.png, id=1139, 197.73875pt x 66.2475pt>
@@ -1654,7 +1654,7 @@ File: ./figure/tedco_logo_tedco_md.png Graphic file (type png)
 
 <use ./figure/tedco_logo_tedco_md.png>
 Package pdftex.def Info: ./figure/tedco_logo_tedco_md.png used on input line 72
-7.
+8.
 (pdftex.def)             Requested size: 49.43456pt x 16.56183pt.
 
 Overfull \hbox (2.01073pt too wide) has occurred while \output is active
@@ -1678,11 +1678,11 @@ Overfull \hbox (1.12701pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `SKelly_Thesis_Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 752.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 752.
 
 (./SKelly_Thesis_Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 752.
 
 
  *File List*
@@ -1870,7 +1870,7 @@ SKelly_Thesis_Presentation.vrb
 ./figure/tedco_logo_tedco_md.png
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 752.
 Package rerunfilecheck Info: File `SKelly_Thesis_Presentation.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 1829995F4416337B11AFF529CC735507;554.
@@ -1881,12 +1881,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 752.
  ) 
 Here is how much of TeX's memory you used:
  20749 strings out of 493089
  412873 string characters out of 6134842
- 488870 words of memory out of 5000000
+ 488906 words of memory out of 5000000
  23626 multiletter control sequences out of 15000+600000
  12629 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1898,7 +1898,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on SKelly_Thesis_Presentation.pdf (25 pages, 29399682 bytes).
+Output written on SKelly_Thesis_Presentation.pdf (25 pages, 29399383 bytes).
 PDF statistics:
  1222 PDF objects out of 1440 (max. 8388607)
  1111 compressed objects within 12 object streams

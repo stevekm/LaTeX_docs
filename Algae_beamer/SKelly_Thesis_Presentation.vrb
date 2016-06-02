@@ -1,5 +1,6 @@
 \frametitle{Algal Species Included in the Study}
 
+% editor's note: don't bother running this R code just paste the TeX table here:
 % latex table generated in R 3.1.1 by xtable 1.7-4 package
 % Sun Nov  2 15:32:37 2014
 \begin{table}[ht]
