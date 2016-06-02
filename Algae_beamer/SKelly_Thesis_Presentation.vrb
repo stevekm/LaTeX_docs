@@ -1,0 +1,36 @@
+\frametitle{Algal Species Included in the Study}
+
+% latex table generated in R 3.1.1 by xtable 1.7-4 package
+% Sun Nov  2 15:32:37 2014
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlll}
+  \hline
+ & Species & Attributes & Uses \\
+  \hline
+1 & \emph{Tetraselmis chuii} & Chlorophyta - flagellate & Aquaculture feed \\
+  2 & \emph{Chaetoceros mulleri} & Ochrophyta - diatom & Aquaculture feed \\
+  3 & \emph{Isochrysis sp.} & Haptophyta - flagellate & Aquaculture feed \\
+  4 & \emph{Thalassiosira pseudonana} & Ochrophyta - diatom & Aquaculture feed \\
+  5 & \emph{Nannochloropsis oculatta} & Ochrophyta - flagellate & Potential for biofuel \\
+   \hline
+\end{tabular}
+\caption{Algal species used in the study.}
+\label{tab:Algae_Species}
+\end{table}
+
+\note[item]{Thalassiosira psuedonana is a model diatom, first to have genome sequenced}
+\note[item]{The four aquaculture species together represent a standard diet for oyster larvae}
+\begin{columns}[t] %Without t, the columns are centered
+                \column{.5\textwidth}
+                        \begin{figure}
+                                \includegraphics[width=1\textwidth]{./figure/FAO_Isochrysis_Tetraselmis.jpg}
+                                \caption{A. {\it Isochrysis} sp.. B. {\it Tetraselmis} sp.. Source: www.fao.org}
+                        \end{figure}
+                \column{.5\textwidth}
+                        \begin{figure}
+                                \includegraphics[width=0.4\textwidth]{./figure/Thal_psuedonana.jpg}
+                                \caption{{\it Thalassiosira pseudonana} SEM micrograph. Source: www.jgi.doe.gov}
+                        \end{figure}
+        \end{columns}
+
