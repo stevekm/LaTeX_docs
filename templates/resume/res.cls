@@ -1,0 +1,1 @@
+res_new_July2015.cls

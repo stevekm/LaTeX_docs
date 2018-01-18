@@ -1,0 +1,129 @@
+\documentclass[line,mm]{res} % using my edited  version of the .cls {res_new_July2015}
+\usepackage[paper=letterpaper,
+%includefoot, % puts page number above margin
+  marginparwidth=1.2in, % Length of section titles
+  marginparsep=.05in,   % Space between titles and text
+  margin=.5in,          % 0.5 inch margins
+  includemp]{geometry}
+\usepackage{multirow} %For fancy tables
+\usepackage{array,booktabs} %For fancy tables
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.5}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+%%% FORMATTING MACROS
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+ % Superscripts and subscripts
+\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\subscript}[1]{\ensuremath{_{\textrm{#1}}}}
+
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    \TeX}}
+    %%%%
+    % added these to try to make some indented paragraphs for the long text sections
+% \setlength{\parindent}{1cm} % Default is 15pt.
+
+
+\renewcommand{\familydefault}{\sfdefault} % sans-serif font
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large John~H.~Doe,~M.S.}
+\begin{resume}
+%\fontsize{12pt}{14} %Adjust font size here
+
+\section{\mysidestyle Contact\\Information}
+    
+Mobile: (123) 456-7890  \hfill      \href{mailto:username@email.com}{username@email.com} \\
+1234 Smith St   \hfill    \href{http://www.linkedin.com/}{http://www.linkedin.com/}                                                                 \\
+Beverly Hills, CA, 90210     \hfill      \href{https://github.com/}{https://github.com/} 
+%%%%%%%%%%%%%
+\rule{\textwidth}{0.2pt} 
+\section{\mysidestyle Summary}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+%%%%%%%%%%%%%
+
+\section{\mysidestyle Education}
+    \textsl{Master of Science} in Apple Picking, Salisbury University, 2015 \\ % \vspace{2mm}% % \hfill \vspace{-5mm}%
+    \textsl{Bachelor of Science} in Liberal Arts, Salisbury University, 2012 \vspace{-1mm}% % \hfill % \vspace{0.5mm}\\%
+
+
+\section{\mysidestyle Programming Experience} 
+\textbf{Languages} \\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \\ \\
+\textbf{Software, Packages, and Skills} \\
+% \begin{ncolumn}{2}
+\begin{itemize}
+\item Lorem ipsum dolor sit amet , .
+\item consectetur adipiscing elit
+\item sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+\end{itemize}
+
+% %%%%%%%%%%%%%%%
+\section{\mysidestyle More Experience} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+
+
+\section{\mysidestyle Professional Experience} 
+\textbf{Amazing Programmer}\hfill \textbf{November 2016 -- present}\\
+\textsl{Programming Lab, Google, Beverly Hills, CA } \\%\vspace{1mm}\\\vspace{1mm}%
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \\ 
+\\
+\textbf{Great Programmer}\hfill \textbf{September 2015 -- October 2016}\\
+\textsl{Programming Lab, Google, Beverly Hills, CA } \\%\vspace{1mm}\\\vspace{1mm}%
+\begin{itemize}
+\item Lorem ipsum dolor sit amet
+\item consectetur adipiscing elit 
+\item sed do eiusmod tempor incididunt ut labore et dolore
+\end{itemize}
+
+\section{\mysidestyle Academic Experience} 
+\textbf{Programming Research Student}\hfill \textbf{September 2013 -- May 2015}\\
+\textsl{\small Department of Programming, Harvard School of Programming, Harvard University} \\%\vspace{1mm}\\\vspace{1mm}%
+\begin{itemize}
+\item Lorem ipsum dolor sit amet
+\item consectetur adipiscing elit 
+\item sed do eiusmod tempor incididunt ut labore et dolore
+\end{itemize}
+
+
+
+
+
+
+%% %%%%%%%%%%%%%%%
+\section{\mysidestyle Publications}
+
+Hohr AIC, Lindau C, et. al. 2017. Membrane protein insertion through a mitochondrial β-barrel gate.
+\textsl{Science}
+ 
+
+
+
+\section{\mysidestyle Digital Portfolio}
+\begin{itemize}
+\item \textbf{\href{https://www.google.com/}{Google}} 
+\end{itemize}
+
+
+\end{resume}
+\end{document}
+% %%%%%%%%%%%%%%%
+
+
